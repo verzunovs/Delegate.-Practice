@@ -1,0 +1,9 @@
+﻿namespace PracticeWithDelegates
+{
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+        }
+    }
+}
