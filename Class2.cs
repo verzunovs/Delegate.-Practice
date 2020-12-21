@@ -1,12 +1,14 @@
 ﻿namespace PracticeWithDelegates
 {
-    public delegate int PowHandler(int x, int y);
-
-    public delegate bool ResultHandler(int x);
-
     public class Class2
     {
         private static int resultOfPow;
+
+        public delegate bool ResultHandler(int x);
+
+        public delegate int PowHandler(int x, int y);
+
+        public PowHandler Pow { get; set; }
 
         public static bool Result(int x)
         {
